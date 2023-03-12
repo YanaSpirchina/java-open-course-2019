@@ -18,6 +18,6 @@ public interface FizzBuzz {
      * @param to   - каким числом заканчивать отсчёт
      */
     default void print(int from, int to){
-        System.out.println("From " + from + " to ");
+        System.out.println("From " + from + " to  ");
     }
 }
