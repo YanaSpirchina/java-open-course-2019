@@ -17,5 +17,7 @@ public interface FizzBuzz {
      * @param from - с какого числа начинать отсчёт
      * @param to   - каким числом заканчивать отсчёт
      */
-    void print(int from, int to);
+    default void print(int from, int to){
+
+    }
 }
